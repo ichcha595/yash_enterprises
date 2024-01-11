@@ -1,0 +1,18 @@
+
+       body{
+           background-image:url(cookies.jpg);
+           
+           background-size:100% auto;
+       }
+     #mymenu
+     {
+         background:rgba(0,0,0,0.5);
+         color:black;
+         text-align: center;
+         font-size: 40px;
+         
+     }
+     #mymenu ul li{
+         display:inline-block;
+         padding: 30px;
+     }

@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>yash enterprises</title>
+        <style type="text/css">
+            body
+            {
+                background-image: url(cookies.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+               
+            }
+            
+            #mymenu
+            {
+                background:rgba(0,0,0,0.5);
+                color:red;
+                text-align: center;
+                font-size:25px;
+            }
+           
+            #mymenu ul li{
+          display:inline-block;
+          padding: 30px;
+            }
+            table
+            {
+                background: rgba(0,0,0,0.5);
+                color:white;
+                margin-top: 100px;
+                box-shadow: 10px 10px 10px white;
+            }
+            .B
+            {
+                width: 85px;
+                height: 40px;
+                background: linear-gradient(red,black);
+                color: white;
+                border-radius: 0px 40px 0px 40px;
+            }
+            .B
+            {
+                width: 85px;
+                height: 40px;
+                background: linear-gradient(to right,black,red);
+                color:white;
+                border-radius: 40px 40px 40px 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="mymenu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="item.html">Item</a></li>
+            <li><a href="customerreg.html">Customer Registration</a></li>
+            <li><a href="customerlogin.html">Customer Login</a></li>
+            <li><a href="disreg.html">Distributer Registration</a></li>
+            <li><a href="dislogin.html">Distributer Login</a></li>
+            <li><a href="contact.html">contact</a></li>
+            </ul>    
+        </div>
+        <div id="mydata">
+            <center>
+                <form action="customerreg" method="GET">
+                
+                <table cellpadding="12">
+                  <th><h1><ul>REGISTRATION </ul></h1></th>
+                
+                    <tr>
+                        <td>ENTER NAME</td>
+                        <td><input type="text" name="name" placeholder="enter name"></td>
+                        </tr>
+                        
+                    <tr>
+                        <td>ENTER Password</td>
+                        <td><input type="password" name="password" placeholder="enter password"></td>
+                        </tr>
+                        
+            
+                    <tr>
+                        <td>ENTER ContactNumber</td>
+                        <td><input type="text" name="contactnumber" placeholder="enter contact-number"></td>
+                        </tr>
+                        
+                  <tr>
+                        <td>ENTER ShopName</td>
+                        <td><input type="text" name="shopname" placeholder="enter shop-name"></td>
+                        </tr>
+                        
+            
+                  <tr>
+                        <td>ENTER ShopAddress</td>
+                        <td><input type="text" name="shopaddress" placeholder="enter shopAddress"></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <th colspan="2"><input type="submit" class="B" value="REGISTER"></th>
+                            </tr>
+          
+                      
+               </table>
+                </form>
+            </center>             
+        </div>
+        </body>
+</html>
+    
